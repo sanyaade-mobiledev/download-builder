@@ -1,0 +1,23 @@
+{
+  "name" : "download-builder",
+  "version" : "0.0.0",
+  "description" : "Download builder for jQuery UI",
+  "author": "Charlie Robbins <charlie@nodejitsu.com>",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/jquery/download-builder.git" 
+  },
+  "dependencies": {
+    "flatiron": "0.x.x",
+    "npm": "1.x.x",
+    "request": "2.1.x",
+    "uglify-js": "1.x.x"
+  },
+  "devDependencies": {
+    "vows": "0.5.x"
+  },
+  "main": "./lib/download-builder.js",
+  "engines" : {
+     "node" : ">= 0.4.0"
+  }
+}
