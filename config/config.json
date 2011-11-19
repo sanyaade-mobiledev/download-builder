@@ -1,0 +1,16 @@
+{
+  "directories": {
+    "bundle": "#ROOT/development-bundle",
+    "demos": "#ROOT/development-bundle/demos",
+    "docs": "#ROOT/development-bundle/docs",
+    "external": "#ROOT/development-bundle/external",
+    "themes": "#ROOT/development-bundle/ui",
+    "themes/base": "#ROOT/development-bundle/themes/base",
+    "themes/custom-theme": "#ROOT/development-bundle/themes/custom-theme",
+    "ui": "#ROOT/development-bundle/ui",
+    "ui/minified": "#ROOT/development-bundle/ui/minified",
+    "js": "#ROOT/js",
+    "css": "#ROOT/css",
+    "css/custom-theme": "#ROOT/css/custom-theme"
+  }
+}

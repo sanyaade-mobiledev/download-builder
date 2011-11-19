@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+var path = require('path'),
+    builder = require('../lib/download-builder');
+
+var build = new builder.Build({
+  root: process.cwd(),
+  config: {
+    type: 'file',
+    file: path.join(__dirname, '..', 'config', 'config.json')
+  }
+});
+
+build.start(function () {
+  //
+  // Dump the build 
+  //
+  build.log.info('Done reading package.json');
+  console.dir(build.package);
+});
